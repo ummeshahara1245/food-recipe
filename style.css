@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Tahoma',sans-serif;
+}
+body h1{
+    color: rgba(15, 15, 15, 0.582);
+}
+#navlist{
+    width: 100%;
+    position: absolute;
+}
+#navlist a{
+    float: right;
+    display: block;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+.half-width{
+    width: 50%;
+    margin-top: 10%;
+}
+.half-width h1{
+    font-size: 50px;
+    
+}
+section{
+    display: flex;
+    padding: 3%;
+}
+.half-width img{
+    width:100%;
+}
+.button-area {
+    background-image: linear-gradient(orange,red );
+    padding: 10px 30px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 10px 9px -2px grey;}
+.banner{
+    background-image: url(images/f1.png);
+}
+.my-recipe{
+    text-align: center;
+}
+#recipes-item img{
+ margin-top: 10px;  
+ display: flex;
+ width: 100%;
+}
+.recipe{
+    padding: 10px;
+}
+.recipe img{
+    border-radius: 15px;
+}
+#recipe1{
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#recipe2{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    padding: 20px;
+    margin: 10px 10px 10px;
+}
+#recipe3{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    padding: 20px;
+    margin: 10px 10px 10px;
+}
+ .followers{
+     margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px; 
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.followers-rating{
+    display: flex;
+    padding-left: 20%;
+    text-align: center;
+    
+}
+.followers-rating p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.followers-rating h1{
+    font-size: 30px;
+}
+footer h3{
+    text-align: center;
+    color: orange;
+}
+footer p{
+   text-align: center;
+   color: cadetblue;
+}
+footer{
+    background-color: black;
+    padding: 5%;
+}

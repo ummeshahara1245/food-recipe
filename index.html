@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Food Network</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
@@ -13,13 +13,16 @@
 </head>
 
 <body>
-    <div id="navlist">
-        <a href="#followers">FOLLOWERS</a>
-        <a href="#recipes">RECIIPES</a>
-        <a href="#about">ABOUT</a>
-        <a href="#home">HOME</a>
-
-    </div>
+    <nav>
+        <div class="navbar">
+            <img class="logo" src="images/images.png">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipe">Recipe</a></li>
+                <li><a href="#about">About us</a></li>
+            </ul>
+        </div>
+    </nav>
     <section>
         <div class="half-width" id="home">
             <h1><span style="color: orange;">SKIP</span> The Diet,<br>
@@ -32,57 +35,52 @@
             <a target="_blank" class="button-area" href="https://github.com/">HIRE ME</a>
         </div>
         <div class="half-width">
-            <img src="images/hotdog.png">
+            <img src="images/cokking-shapes.jpg">
         </div>
     </section>
     <section class="banner">
         <div class="half-width">
-            <img src="images/burger-03.png">
+            <img src="images/hand-crossed.png">
         </div>
         <div class="half-width" id="about">
             <h1>ABOUT</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse accusantium cumque quod nisi iusto
-                dignissimos, mollitia voluptas laborum eius nemo, eum animi consectetur blanditiis eos eveniet, dolor
-                reiciendis quidem dolorum?</p>
+            <p>MyRecipes.com features the largest collection of professionally-tested recipes online from food experts
+                at the magazines and cookbooks you love and trust--including Cooking Light, Southern Living, Sunset,
+                Coastal Living, Real Simple, and more.</p>
             <br>
             <a target="_blank" class="button-area" href="https://mail.google.com/mail/u/0/#inbox">DOWNLOAD CV</a>
         </div>
     </section>
-    <div class="my-recipe" id="recipes">
+    <div class="my-recipe" id="recipe">
         <h1>My recipies</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-            Lorem Ipsum has been the industry's standard dummy text ever since the<br>
-            1500s.</p>
+        <p>To maintain healthy life your recipeies also should be maintained<br>
+            I have my recipies which you can also try to lead a healthy life.Below are some of my recipies try them.</p>
     </div>
     <section id="recipes-item">
         <div class="recipe" id="recipe1">
-            <img src="images/recipe1.jpeg">
+            <img src="images/food/patty.png">
 
-            <h3>Recipie Title</h3>
-            <p>Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Lacus,
-                fermentum amet faucibus sed id nisi
-                lectus at</p>
-
-
+            <h3>Fried beef patty</h3>
+            <p>This are beef which don't contains much oil.It is tasty and healthy.But you must not eat that too much
+                for maintaining your health.This is a 5 star rated item.Try it in cheap.</p>
         </div>
         <div class="recipe" id="recipe2">
-            <img src="images/recipe2.jpeg">
-            <h3>Recipie Title</h3>
-            <p>Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Lacus,
-                fermentum amet faucibus sed id nisi
-                lectus at</p>
+            <img src="images/food/steak.png">
+            <h3>Beef steak </h3>
+            <p>This is a special item of food network.It is very delicious to eat and also healthy.It contins a little
+                amount of oil.And we don't use much spices.It get a 5 star from people.</p>
         </div>
         <div class="recipe" id="recipe3">
-            <img src="images/recipe3.jpeg">
-            <h3>Recipie Title</h3>
-            <p>Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Lacus,
-                fermentum amet faucibus sed id nisi
-                lectus at</p>
+            <img src="images/food/soup.png">
+            <h3>Sweet potato soup
+
+            </h3>
+            <p>This is American sweet potato soup which is liked by most of the healthy people.We also make this soup
+                which contains coconut and nuts in it.It is also 5 star rated by people.</p>
         </div>
     </section>
+
+
     <section class="followers" id="followers">
         <div class="followers-rating">
             <div>
@@ -99,8 +97,9 @@
             </div>
         </div>
     </section>
+
     <footer>
-        <h3>FOOD NETWORK</h3>
+        <h3><span>FOOD</span> Network</h3>
         <p>Eat healthy to live healthy. Live healthy to live happy</p>
     </footer>
 </body>
